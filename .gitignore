@@ -1,0 +1,56 @@
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Vite cache
+.vite/
+
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.env
+.env.*
+!.env.example
+
+# Python / FastAPI
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.python-version
+.venv/
+venv/
+backend/venv/
+env/
+ENV/
+pip-wheel-metadata/
+.mypy_cache/
+.pytest_cache/
+.coverage
+coverage/
+htmlcov/
+.cache/
+
+# Build artifacts (Python)
+*.egg
+*.egg-info/
+.eggs/
+
+# OS-specific
+Thumbs.db
